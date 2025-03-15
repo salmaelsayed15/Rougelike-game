@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Grid -->
+  <g stroke="#ddd" stroke-width="1" opacity="0.2">
+    <path d="M200 0 L200 600"/>
+    <path d="M400 0 L400 600"/>
+    <path d="M600 0 L600 600"/>
+    <path d="M0 150 L800 150"/>
+    <path d="M0 300 L800 300"/>
+    <path d="M0 450 L800 450"/>
+  </g>
+
+  <!-- Frame Labels -->
+  <text x="100" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Down</text>
+  <text x="300" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Up</text>
+  <text x="500" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Left</text>
+  <text x="700" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Right</text>
+  
+  <text x="20" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">0</text>
+  <text x="20" y="240" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">1</text>
+  <text x="20" y="390" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">2</text>
+  <text x="20" y="540" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">3</text>
+
+  <!-- Ghost Down Frame 0 -->
+  <g transform="translate(100, 90)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="15" cy="20" r="2" fill="#333" />
+    <circle cx="35" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,35 Q25,40 30,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Down Frame 1 -->
+  <g transform="translate(100, 240)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="22" r="5" fill="white" />
+    <circle cx="35" cy="22" r="5" fill="white" />
+    <circle cx="15" cy="22" r="2" fill="#333" />
+    <circle cx="35" cy="22" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,37 Q25,42 30,37" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Down Frame 2 -->
+  <g transform="translate(100, 390)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="17" cy="20" r="2" fill="#333" />
+    <circle cx="37" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,35 Q25,40 30,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Down Frame 3 -->
+  <g transform="translate(100, 540)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="22" r="5" fill="white" />
+    <circle cx="35" cy="22" r="5" fill="white" />
+    <circle cx="13" cy="22" r="2" fill="#333" />
+    <circle cx="33" cy="22" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,37 Q25,42 30,37" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Up Frame 0 -->
+  <g transform="translate(300, 90)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="15" r="5" fill="white" />
+    <circle cx="35" cy="15" r="5" fill="white" />
+    <circle cx="15" cy="13" r="2" fill="#333" />
+    <circle cx="35" cy="13" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,30 Q25,25 30,30" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Up Frame 1 -->
+  <g transform="translate(300, 240)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="13" r="5" fill="white" />
+    <circle cx="35" cy="13" r="5" fill="white" />
+    <circle cx="15" cy="11" r="2" fill="#333" />
+    <circle cx="35" cy="11" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,28 Q25,23 30,28" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Up Frame 2 -->
+  <g transform="translate(300, 390)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="15" r="5" fill="white" />
+    <circle cx="35" cy="15" r="5" fill="white" />
+    <circle cx="15" cy="12" r="2" fill="#333" />
+    <circle cx="35" cy="12" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,30 Q25,25 30,30" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Up Frame 3 -->
+  <g transform="translate(300, 540)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="13" r="5" fill="white" />
+    <circle cx="35" cy="13" r="5" fill="white" />
+    <circle cx="14" cy="10" r="2" fill="#333" />
+    <circle cx="34" cy="10" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M20,28 Q25,23 30,28" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Left Frame 0 -->
+  <g transform="translate(500, 90)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="30" cy="20" r="4" fill="white" />
+    <circle cx="13" cy="20" r="2" fill="#333" />
+    <circle cx="28" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M15,35 Q20,38 25,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Left Frame 1 -->
+  <g transform="translate(500, 240)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="30" cy="20" r="4" fill="white" />
+    <circle cx="12" cy="20" r="2" fill="#333" />
+    <circle cx="27" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M15,35 Q20,38 25,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Left Frame 2 -->
+  <g transform="translate(500, 390)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="30" cy="20" r="4" fill="white" />
+    <circle cx="13" cy="19" r="2" fill="#333" />
+    <circle cx="28" cy="19" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M15,33 Q20,36 25,33" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Left Frame 3 -->
+  <g transform="translate(500, 540)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="15" cy="20" r="5" fill="white" />
+    <circle cx="30" cy="20" r="4" fill="white" />
+    <circle cx="12" cy="21" r="2" fill="#333" />
+    <circle cx="27" cy="21" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M15,35 Q20,38 25,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Right Frame 0 -->
+  <g transform="translate(700, 90)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="20" cy="20" r="4" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="22" cy="20" r="2" fill="#333" />
+    <circle cx="37" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M25,35 Q30,38 35,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Right Frame 1 -->
+  <g transform="translate(700, 240)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="20" cy="20" r="4" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="23" cy="20" r="2" fill="#333" />
+    <circle cx="38" cy="20" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M25,35 Q30,38 35,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Right Frame 2 -->
+  <g transform="translate(700, 390)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,75 40,65 Q35,75 30,65 Q25,75 20,65 Q15,75 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="20" cy="20" r="4" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="22" cy="19" r="2" fill="#333" />
+    <circle cx="37" cy="19" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M25,33 Q30,36 35,33" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+
+  <!-- Ghost Right Frame 3 -->
+  <g transform="translate(700, 540)">
+    <!-- Ghost body -->
+    <path d="M0,35 Q0,0 25,0 Q50,0 50,35 L50,65 Q45,70 40,65 Q35,70 30,65 Q25,70 20,65 Q15,70 10,65 L0,35" fill="#b8c4ff" stroke="#6478e5" stroke-width="2" />
+    <!-- Ghost eyes -->
+    <circle cx="20" cy="20" r="4" fill="white" />
+    <circle cx="35" cy="20" r="5" fill="white" />
+    <circle cx="23" cy="21" r="2" fill="#333" />
+    <circle cx="38" cy="21" r="2" fill="#333" />
+    <!-- Ghost mouth -->
+    <path d="M25,35 Q30,38 35,35" fill="none" stroke="#6478e5" stroke-width="2" />
+  </g>
+</svg>

@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- Background grid for reference -->
+  <rect width="800" height="200" fill="#f0f0f0"/>
+  <g stroke="#ddd" stroke-width="1">
+    <!-- Vertical grid lines -->
+    <line x1="50" y1="0" x2="50" y2="200"/>
+    <line x1="100" y1="0" x2="100" y2="200"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+    <line x1="200" y1="0" x2="200" y2="200"/>
+    <line x1="250" y1="0" x2="250" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="350" y1="0" x2="350" y2="200"/>
+    <line x1="400" y1="0" x2="400" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="200"/>
+    <line x1="550" y1="0" x2="550" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="650" y1="0" x2="650" y2="200"/>
+    <line x1="700" y1="0" x2="700" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="20" font-family="Arial" font-size="16" fill="black" text-anchor="middle">Player Character Sprite Sheet (50x50 pixels per frame)</text>
+  
+  <!-- Row Labels -->
+  <text x="25" y="75" font-family="Arial" font-size="12" fill="black" text-anchor="middle">Down</text>
+  <text x="25" y="125" font-family="Arial" font-size="12" fill="black" text-anchor="middle">Up</text>
+  <text x="25" y="175" font-family="Arial" font-size="12" fill="black" text-anchor="middle">Side</text>
+  
+  <!-- DOWN FACING ANIMATIONS (Row 1) -->
+  
+  <!-- player_down_0 -->
+  <g transform="translate(75, 75)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Mouth -->
+    <path d="M-3,-3 C-1,0 1,0 3,-3" fill="none" stroke="black" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 0 - standing) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_down_1 -->
+  <g transform="translate(125, 75)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Mouth -->
+    <path d="M-3,-3 C-1,0 1,0 3,-3" fill="none" stroke="black" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-10" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-6" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 1 - walking) -->
+    <rect x="-10" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_down_2 -->
+  <g transform="translate(175, 75)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Mouth -->
+    <path d="M-3,-3 C-1,0 1,0 3,-3" fill="none" stroke="black" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 2 - standing alternative) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_down_3 -->
+  <g transform="translate(225, 75)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Mouth -->
+    <path d="M-3,-3 C-1,0 1,0 3,-3" fill="none" stroke="black" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-6" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-10" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 3 - walking alternative) -->
+    <rect x="-4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="-2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- UP FACING ANIMATIONS (Row 2) -->
+  
+  <!-- player_up_0 -->
+  <g transform="translate(75, 125)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head - back view -->
+    <circle cx="0" cy="-5" r="10" fill="#c78c59"/>
+    <!-- Hair -->
+    <path d="M-10,-5 Q-5,-15 0,-15 Q5,-15 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 0 - standing) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_up_1 -->
+  <g transform="translate(125, 125)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head - back view -->
+    <circle cx="0" cy="-5" r="10" fill="#c78c59"/>
+    <!-- Hair -->
+    <path d="M-10,-5 Q-5,-15 0,-15 Q5,-15 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-10" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-6" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 1 - walking) -->
+    <rect x="-10" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_up_2 -->
+  <g transform="translate(175, 125)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head - back view -->
+    <circle cx="0" cy="-5" r="10" fill="#c78c59"/>
+    <!-- Hair -->
+    <path d="M-10,-5 Q-5,-15 0,-15 Q5,-15 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-8" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 2 - standing alternative) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_up_3 -->
+  <g transform="translate(225, 125)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head - back view -->
+    <circle cx="0" cy="-5" r="10" fill="#c78c59"/>
+    <!-- Hair -->
+    <path d="M-10,-5 Q-5,-15 0,-15 Q5,-15 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-16" y="-6" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <rect x="10" y="-10" width="6" height="12" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 3 - walking alternative) -->
+    <rect x="-4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="-2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- LEFT FACING ANIMATIONS (Row 3, first half) -->
+  
+  <!-- player_left_0 -->
+  <g transform="translate(75, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M-5,-15 C-8,-15 -10,-10 -10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-8" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 0 - standing) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_left_1 -->
+  <g transform="translate(125, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M-5,-15 C-8,-15 -10,-10 -10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-10" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 1 - walking) -->
+    <rect x="-10" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_left_2 -->
+  <g transform="translate(175, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M-5,-15 C-8,-15 -10,-10 -10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-8" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 2 - standing alternative) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_left_3 -->
+  <g transform="translate(225, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="-4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M-5,-15 C-8,-15 -10,-10 -10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-6" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 3 - walking alternative) -->
+    <rect x="-4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="-2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- RIGHT FACING ANIMATIONS (Row 3, second half) -->
+  
+  <!-- player_right_0 -->
+  <g transform="translate(275, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M5,-15 C8,-15 10,-10 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-4" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 0 - standing) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_right_1 -->
+  <g transform="translate(325, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M5,-15 C8,-15 10,-10 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-2" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 1 - walking) -->
+    <rect x="-10" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_right_2 -->
+  <g transform="translate(375, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M5,-15 C8,-15 10,-10 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-4" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 2 - standing alternative) -->
+    <rect x="-8" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- player_right_3 -->
+  <g transform="translate(425, 175)">
+    <!-- Body -->
+    <circle cx="0" cy="-5" r="14" fill="#3498db"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#f5d7b7"/>
+    <!-- Eye (only one visible from side) -->
+    <circle cx="4" cy="-8" r="1.5" fill="black"/>
+    <!-- Hair -->
+    <path d="M5,-15 C8,-15 10,-10 10,-5" fill="#553322" stroke="#553322" stroke-width="1"/>
+    <!-- Arms -->
+    <rect x="-6" y="-8" width="12" height="6" rx="3" fill="#f5d7b7"/>
+    <!-- Legs (Frame 3 - walking alternative) -->
+    <rect x="-4" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+    <rect x="-2" y="9" width="6" height="12" rx="3" fill="#3a539b"/>
+  </g>
+  
+  <!-- Sprite Names -->
+  <text x="75" y="45" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_down_0</text>
+  <text x="125" y="45" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_down_1</text>
+  <text x="175" y="45" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_down_2</text>
+  <text x="225" y="45" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_down_3</text>
+  
+  <text x="75" y="95" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_up_0</text>
+  <text x="125" y="95" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_up_1</text>
+  <text x="175" y="95" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_up_2</text>
+  <text x="225" y="95" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_up_3</text>
+  
+  <text x="75" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_left_0</text>
+  <text x="125" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_left_1</text>
+  <text x="175" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_left_2</text>
+  <text x="225" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_left_3</text>
+  
+  <text x="275" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_right_0</text>
+  <text x="325" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_right_1</text>
+  <text x="375" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_right_2</text>
+  <text x="425" y="145" font-family="Arial" font-size="8" fill="black" text-anchor="middle">player_right_3</text>
+</svg>

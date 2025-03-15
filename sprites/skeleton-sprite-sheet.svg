@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f0f0f0" />
+  
+  <!-- Grid -->
+  <g stroke="#dddddd" stroke-width="1">
+    <!-- Vertical lines -->
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="400" y1="0" x2="400" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" />
+    <!-- Horizontal lines -->
+    <line x1="0" y1="200" x2="800" y2="200" />
+  </g>
+  
+  <!-- Labels -->
+  <text x="100" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">skeleton_down_0-3</text>
+  <text x="300" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">skeleton_up_0-3</text>
+  <text x="500" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">skeleton_left_0-3</text>
+  <text x="700" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">skeleton_right_0-3</text>
+  
+  <!-- DOWN direction sprites (top-left quadrant) -->
+  <!-- skeleton_down_0 -->
+  <g transform="translate(50, 100)">
+    <!-- Skull -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eyes -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Smile -->
+    <path d="M40 38 Q50 45 60 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="40" y1="55" x2="25" y2="65" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="75" y2="65" stroke="#333" stroke-width="4" />
+    <!-- Legs standing position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">0</text>
+  </g>
+  
+  <!-- skeleton_down_1 -->
+  <g transform="translate(150, 100)">
+    <!-- Skull -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eyes -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Smile -->
+    <path d="M40 38 Q50 45 60 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving -->
+    <line x1="40" y1="55" x2="20" y2="60" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="80" y2="60" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="35" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="65" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">1</text>
+  </g>
+  
+  <!-- skeleton_down_2 -->
+  <g transform="translate(50, 170)">
+    <!-- Skull bouncing slightly higher -->
+    <circle cx="50" cy="25" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eyes -->
+    <circle cx="42" cy="20" r="4" fill="black" />
+    <circle cx="58" cy="20" r="4" fill="black" />
+    <!-- Smile -->
+    <path d="M40 33 Q50 40 60 33" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="45" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="40" y1="50" x2="25" y2="40" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="50" x2="75" y2="40" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position (opposite) -->
+    <line x1="45" y1="75" x2="35" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="75" x2="65" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">2</text>
+  </g>
+  
+  <!-- skeleton_down_3 -->
+  <g transform="translate(150, 170)">
+    <!-- Skull -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eyes -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Smile -->
+    <path d="M40 38 Q50 45 60 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving (opposite) -->
+    <line x1="40" y1="55" x2="25" y2="50" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="75" y2="50" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">3</text>
+  </g>
+  
+  <!-- UP direction sprites (top-right quadrant) -->
+  <!-- skeleton_up_0 -->
+  <g transform="translate(250, 100)">
+    <!-- Skull back view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Back of skull -->
+    <path d="M40 25 Q50 20 60 25" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="40" y1="55" x2="25" y2="65" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="75" y2="65" stroke="#333" stroke-width="4" />
+    <!-- Legs standing position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">0</text>
+  </g>
+  
+  <!-- skeleton_up_1 -->
+  <g transform="translate(350, 100)">
+    <!-- Skull back view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Back of skull -->
+    <path d="M40 25 Q50 20 60 25" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving -->
+    <line x1="40" y1="55" x2="20" y2="60" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="80" y2="60" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="35" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="65" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">1</text>
+  </g>
+  
+  <!-- skeleton_up_2 -->
+  <g transform="translate(250, 170)">
+    <!-- Skull back view bouncing slightly higher -->
+    <circle cx="50" cy="25" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Back of skull -->
+    <path d="M40 20 Q50 15 60 20" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="45" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="40" y1="50" x2="25" y2="40" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="50" x2="75" y2="40" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position (opposite) -->
+    <line x1="45" y1="75" x2="35" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="75" x2="65" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">2</text>
+  </g>
+  
+  <!-- skeleton_up_3 -->
+  <g transform="translate(350, 170)">
+    <!-- Skull back view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Back of skull -->
+    <path d="M40 25 Q50 20 60 25" fill="none" stroke="#333" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving (opposite) -->
+    <line x1="40" y1="55" x2="25" y2="50" stroke="#333" stroke-width="4" />
+    <line x1="60" y1="55" x2="75" y2="50" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">3</text>
+  </g>
+  
+  <!-- LEFT direction sprites (bottom-left quadrant) -->
+  <!-- skeleton_left_0 -->
+  <g transform="translate(450, 100)">
+    <!-- Skull - side view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - left side -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M45 38 Q40 40 35 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms - pointing left -->
+    <line x1="45" y1="55" x2="25" y2="55" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="60" x2="45" y2="65" stroke="#333" stroke-width="4" />
+    <!-- Legs standing position -->
+    <line x1="45" y1="80" x2="35" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="50" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">0</text>
+  </g>
+  
+  <!-- skeleton_left_1 -->
+  <g transform="translate(550, 100)">
+    <!-- Skull - side view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - left side -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M45 38 Q40 40 35 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving - left -->
+    <line x1="45" y1="55" x2="20" y2="45" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="60" x2="45" y2="70" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="25" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">1</text>
+  </g>
+  
+  <!-- skeleton_left_2 -->
+  <g transform="translate(450, 170)">
+    <!-- Skull bouncing slightly higher - side view -->
+    <circle cx="50" cy="25" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - left side -->
+    <circle cx="42" cy="20" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M45 33 Q40 35 35 33" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="45" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="45" y1="50" x2="25" y2="40" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="55" x2="45" y2="45" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position (opposite) -->
+    <line x1="45" y1="75" x2="60" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="75" x2="30" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">2</text>
+  </g>
+  
+  <!-- skeleton_left_3 -->
+  <g transform="translate(550, 170)">
+    <!-- Skull - side view -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - left side -->
+    <circle cx="42" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M45 38 Q40 40 35 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving (opposite) -->
+    <line x1="45" y1="55" x2="25" y2="65" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="60" x2="45" y2="50" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="35" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">3</text>
+  </g>
+  
+  <!-- RIGHT direction sprites (bottom-right quadrant) -->
+  <!-- skeleton_right_0 -->
+  <g transform="translate(650, 100)">
+    <!-- Skull - side view (mirrored) -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - right side -->
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M55 38 Q60 40 65 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms - pointing right -->
+    <line x1="55" y1="55" x2="75" y2="55" stroke="#333" stroke-width="4" />
+    <line x1="45" y1="60" x2="55" y2="65" stroke="#333" stroke-width="4" />
+    <!-- Legs standing position -->
+    <line x1="45" y1="80" x2="40" y2="100" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="65" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">0</text>
+  </g>
+  
+  <!-- skeleton_right_1 -->
+  <g transform="translate(750, 100)">
+    <!-- Skull - side view (mirrored) -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - right side -->
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M55 38 Q60 40 65 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving - right -->
+    <line x1="55" y1="55" x2="80" y2="45" stroke="#333" stroke-width="4" />
+    <line x1="45" y1="60" x2="55" y2="70" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="40" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="75" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">1</text>
+  </g>
+  
+  <!-- skeleton_right_2 -->
+  <g transform="translate(650, 170)">
+    <!-- Skull bouncing slightly higher - side view (mirrored) -->
+    <circle cx="50" cy="25" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - right side -->
+    <circle cx="58" cy="20" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M55 33 Q60 35 65 33" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="45" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms -->
+    <line x1="55" y1="50" x2="75" y2="40" stroke="#333" stroke-width="4" />
+    <line x1="45" y1="55" x2="55" y2="45" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position (opposite) -->
+    <line x1="45" y1="75" x2="30" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="75" x2="70" y2="95" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">2</text>
+  </g>
+  
+  <!-- skeleton_right_3 -->
+  <g transform="translate(750, 170)">
+    <!-- Skull - side view (mirrored) -->
+    <circle cx="50" cy="30" r="20" fill="white" stroke="#333" stroke-width="2" />
+    <!-- Eye - right side -->
+    <circle cx="58" cy="25" r="4" fill="black" />
+    <!-- Side mouth -->
+    <path d="M55 38 Q60 40 65 38" fill="none" stroke="black" stroke-width="2" />
+    <!-- Body -->
+    <rect x="40" y="50" width="20" height="30" fill="white" stroke="#333" stroke-width="2" rx="2" />
+    <!-- Arms waving (opposite) -->
+    <line x1="55" y1="55" x2="75" y2="65" stroke="#333" stroke-width="4" />
+    <line x1="45" y1="60" x2="55" y2="50" stroke="#333" stroke-width="4" />
+    <!-- Legs walking position -->
+    <line x1="45" y1="80" x2="25" y2="95" stroke="#333" stroke-width="4" />
+    <line x1="55" y1="80" x2="60" y2="100" stroke="#333" stroke-width="4" />
+    <!-- Frame number -->
+    <text x="50" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff0000">3</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="390" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">
+    Childish Skeleton Sprites for Roguelike Adventure
+  </text>
+</svg>
